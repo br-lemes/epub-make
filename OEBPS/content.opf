@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:3d113674-d4ee-42ac-b765-611cc75ab584</dc:identifier>
+    <dc:title>Hello World</dc:title>
+    <dc:creator opf:role="aut">Breno Ramalho Lemes</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:date opf:event="modification">2016-05-28</dc:date>
+    <meta content="0.8.6" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Section0001.xhtml" />
+  </spine>
+  <guide />
+</package>
